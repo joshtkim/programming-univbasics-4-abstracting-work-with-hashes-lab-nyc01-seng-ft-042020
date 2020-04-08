@@ -1,8 +1,10 @@
 def my_hash_creator(key, value)
+  my_hash_creater(:name, "George")
   # return a hash that includes the key and value parameters passed into this method
 end
 
 def read_from_hash(hash, key)
+  read_from_hash(location: "New York City", occupation: "Student")
   # return the correct value using the hash and key parameters
 end
 
